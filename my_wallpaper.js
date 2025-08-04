@@ -7,6 +7,7 @@ let bow = false;
 let starColors = [];
 let backgroundColor = [250, 202, 214];
 
+// line 86 :   stroke('#f6a3d7ff'); 
 
 
 function setup_wallpaper(pWallpaper) {
@@ -18,6 +19,7 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 150;
   pWallpaper.grid_settings.cell_height = 150;
+
   pWallpaper.grid_settings.row_offset  = 50;
 }
 
@@ -62,7 +64,7 @@ function my_symbol() {
   }
 }
 
-//Custom function to draw a heart shape
+//Custom function to draw a heart shape 《3
 function drawHeart(x, y, size, color){
   push();
   translate(x, y);
