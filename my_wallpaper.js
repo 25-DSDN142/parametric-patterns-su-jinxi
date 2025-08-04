@@ -105,24 +105,24 @@ function drawBow(x, y, color) {
   pop();
 }
 
-function drawStar(x, y, radius1, radius2, npoints, color) {
-  let angle = TWO_PI / npoints;
-  let halfAngle = angle / 2.0;
-  push();
-  translate(x, y);
-  fill(color);
-  noStroke();
-  beginShape();
-  for (let a = 0; a < TWO_PI; a += angle) {
-    let sx = cos(a) * radius1;
-    let sy = sin(a) * radius2;
-    vertex(sx, sy);
-    sx = cos(a + halfAngle) * radius1;
-    sy = sin(a + halfAngle) * radius2;
-    vertex(sx , sy);
-  }
-  endShape(CLOSE);
-  pop();
-}
+// function drawStar(x, y, radius1, radius2, npoints, color) {
+//   let angle = TWO_PI / npoints;
+//   let halfAngle = angle / 2.0;
+//   push();
+//   translate(x, y);
+//   fill(color);
+//   noStroke();
+//   beginShape();
+//   for (let a = 0; a < TWO_PI; a += angle) {
+//     let sx = cos(a) * radius1;
+//     let sy = sin(a) * radius2;
+//     vertex(sx, sy);
+//     sx = cos(a + halfAngle) * radius1;
+//     sy = sin(a + halfAngle) * radius2;
+//     vertex(sx , sy);
+//   }
+//   endShape(CLOSE);
+//   pop();
+// }
 
 

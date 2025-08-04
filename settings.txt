@@ -22,6 +22,7 @@ let backgroundColor = [250, 202, 214];
 /////////////////////////////////
 
 Wallpaper 2:
+
 let heartsize  = 0.7;
 let heartColor = '#ffffff';
 let doubleHeart = false;
