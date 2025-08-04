@@ -14,21 +14,6 @@ let heartColor = '#ffffff';
 let doubleHeart = false;
 let heartBorder = false;
 let bow = false;
-let starColors = [];
-let backgroundColor = [250, 202, 214];
-
-
-
-/////////////////////////////////
-
-Wallpaper 2:
-
-let heartsize  = 0.7;
-let heartColor = '#ffffff';
-let doubleHeart = false;
-let heartBorder = false;
-let bow = false;
-let starColors = [];
 let backgroundColor = [250, 202, 214];
 
 
@@ -42,6 +27,11 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 150;
   pWallpaper.grid_settings.cell_height = 150;
-  
   pWallpaper.grid_settings.row_offset  = 50;
 }
+
+
+
+/////////////////////////////////
+
+Wallpaper 2:
