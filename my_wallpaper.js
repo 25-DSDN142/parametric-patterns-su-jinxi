@@ -4,10 +4,8 @@ let heartColor = '#ffffff';
 let doubleHeart = false;
 let heartBorder = false;
 let bow = false;
-let starColors = [];
 let backgroundColor = [250, 202, 214];
 
-// line 86 :   stroke('#f6a3d7ff'); 
 
 
 function setup_wallpaper(pWallpaper) {
@@ -54,14 +52,6 @@ function my_symbol() {
   if(bow) {
     drawBow(0, -40, '#e249b1ff');
   }
-
-  if(starColors.length > 0) {
-    for(let c of starColors) {
-      let sx = random(-20, 20);
-      let sy = random(-20, 20);
-      drawStar(sx, sy, 5, 10, 5, c);
-    }
-  }
 }
 
 //Custom function to draw a heart shape 《3
@@ -104,25 +94,3 @@ function drawBow(x, y, color) {
   ellipse(0, 0, 10, 10);
   pop();
 }
-
-// function drawStar(x, y, radius1, radius2, npoints, color) {
-//   let angle = TWO_PI / npoints;
-//   let halfAngle = angle / 2.0;
-//   push();
-//   translate(x, y);
-//   fill(color);
-//   noStroke();
-//   beginShape();
-//   for (let a = 0; a < TWO_PI; a += angle) {
-//     let sx = cos(a) * radius1;
-//     let sy = sin(a) * radius2;
-//     vertex(sx, sy);
-//     sx = cos(a + halfAngle) * radius1;
-//     sy = sin(a + halfAngle) * radius2;
-//     vertex(sx , sy);
-//   }
-//   endShape(CLOSE);
-//   pop();
-// }
-
-
