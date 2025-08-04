@@ -17,7 +17,6 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 150;
   pWallpaper.grid_settings.cell_height = 150;
-
   pWallpaper.grid_settings.row_offset  = 50;
 }
 
