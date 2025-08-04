@@ -35,3 +35,219 @@ function setup_wallpaper(pWallpaper) {
 /////////////////////////////////
 
 Wallpaper 2:
+//your parameter variables go here!
+let heartsize  = 0.7;
+let heartColor = '#ffb8d9';
+let doubleHeart = true;
+let heartBorder = false;
+let bow = false;
+let backgroundColor = [255, 255, 255];
+
+// line 25 : background(255, 255, 255); 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 150;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+
+
+/////////////////////////////////
+
+Wallpaper 3:
+//your parameter variables go here!
+let heartsize  = 0.7;
+let heartColor = '#fcd7e8ff';
+let doubleHeart = false;
+let heartBorder = true;
+let bow = false;
+let backgroundColor = [250, 202, 214];
+
+// line 76 :  stroke('#ffffffff');  
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 150;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+
+
+/////////////////////////////////
+
+Wallpaper 4:
+//your parameter variables go here!
+let heartsize  = 0.7;
+let heartColor = '#f7b0c1ff';
+let doubleHeart = true;
+let heartBorder = true;
+let bow = false;
+let backgroundColor = [250, 202, 214];
+
+// line 76 :  stroke('#fb7dbcff');
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 150;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+
+
+/////////////////////////////////
+
+Wallpaper 5:
+//your parameter variables go here!
+let heartsize  = 0.7;
+let heartColor = '#f289bfff';
+let doubleHeart = false;
+let heartBorder = true;
+let bow = true;
+let backgroundColor = [35, 19, 38];
+
+// line 25 :   background(35, 19, 38); 
+// line 52 :   drawBow(0, -40, '#ee6ab9ff');
+// line 76 :   stroke('#d5589bff');
+// line 88 :   translate(x, y + 21);
+// line 93 :   ellipse(0, 0, 17, 17);
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 150;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+
+
+/////////////////////////////////
+
+Wallpaper 6:
+//your parameter variables go here!
+let heartsize  = 0.7;
+let heartColor = '#ffffff';
+let doubleHeart = true;
+let heartBorder = false;
+let bow = false;
+let backgroundColor = [250, 202, 214];
+
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 150;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+
+
+/////////////////////////////////
+
+Wallpaper 7:
+//your parameter variables go here!
+let heartsize  = 0.7;
+let heartColor = '#ffb8d9';
+let doubleHeart = true;
+let heartBorder = true;
+let bow = false;
+let backgroundColor = [255, 255, 255];
+
+// line 25 :   background(255, 255, 255);
+// line 76 :   stroke('#f78acfff');
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 150;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+
+
+/////////////////////////////////
+
+Wallpaper 8:
+//your parameter variables go here!
+let heartsize  = 0.5;
+let heartColor = '#ffffff';
+let doubleHeart = true;
+let heartBorder = true;
+let bow = false;
+let backgroundColor = [250, 202, 214];
+
+// line 76 :  stroke('#f48bceff');
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 150;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+
+
+/////////////////////////////////
+
+Wallpaper 9:
+//your parameter variables go here!
+let heartsize  = 0.9;
+let heartColor = '#ffb8d9';
+let doubleHeart = false;
+let heartBorder = true;
+let bow = false;
+let backgroundColor = [255, 255, 255];
+
+// line 25 :  background(255, 255, 255);
+// line 76 :  stroke('#fb8cbcff');
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 150;
+  pWallpaper.grid_settings.cell_height = 150;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
