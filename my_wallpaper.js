@@ -28,7 +28,7 @@ function wallpaper_background() {
 
 //This function draws one tile
 function draw_tile(x, y, width, height) {
-  push();
+  push(); // phoebe was here
   translate(x + width / 2, y + height / 2);
   my_symbol();
   pop();
